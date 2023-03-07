@@ -1,6 +1,6 @@
 # Photo-Scramble
 ![image](https://user-images.githubusercontent.com/89245846/223497602-46e41488-acd8-4f2e-a696-fbab0ec81603.png)
-(artwork by Mrs. Tabitha Eller)
+
 Each Block is placed in a Node of a Chain, in order from left to right as shown here:
 ![image](https://user-images.githubusercontent.com/89245846/223497699-5945d1ed-92c3-4934-b7d9-216ef58770e5.png)
 The Chain can be rearranged, and the image reassembled to create a puzzle.
@@ -23,3 +23,9 @@ void copy(const Chain & other): Helper function for copy constructor and assignm
 Node * insertAfter(Node * p, const Block & ndata): Insert a new node after the node pointed to by p in the Chain.
 void swap(Node *p, Node *q): Swaps the two nodes pointed to by p and q in the Chain.
 void unscramble(): Rearranges the Chain into its original order based on minimizing the difference between adjacent blocks.
+
+
+
+
+
+(artwork by Mrs. Tabitha Eller)
