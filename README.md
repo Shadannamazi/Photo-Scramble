@@ -3,8 +3,11 @@
 
 Each Block is placed in a Node of a Chain, in order from left to right as shown here:
 ![image](https://user-images.githubusercontent.com/89245846/223497699-5945d1ed-92c3-4934-b7d9-216ef58770e5.png)
+
 The Chain can be rearranged, and the image reassembled to create a puzzle.
+
 ![image](https://user-images.githubusercontent.com/89245846/223497810-fab691c9-1077-43b2-bcaa-e70f1d659a0e.png)
+
 
 This code will take such a scrambled image and unscramble it!
 
