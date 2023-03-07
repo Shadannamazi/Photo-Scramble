@@ -14,12 +14,12 @@ This code will take such a scrambled image and unscramble it!
 The diagram above illustrates the infrastructure of the chain. Most notably, it is a doubly-linked list, with a head pointer to the first node. Each node in a doubly-linked list contains two pointers, one to the previous node in the list prev and one to the next node next. The prev pointer of the first node and the next pointer of the last node are NULL.
 
 
-In block.cpp
+## In block.cpp
 int width() const: Return the width of the current block.
 int height() const: Return the height of the current block.
 void build(PNG & im, int x, int width): From the PNG image im, grab the vertical, rectangular strip of pixels whose upper left corner is at position (x,0), and whose dimensions are width by height of the image im.
 void render(PNG & im, int x) const: Draw the current block at position (x,0) in im.
-In chain.cpp
+## In chain.cpp
 void clear(): Helper function for destructor and assignment operator.
 void copy(const Chain & other): Helper function for copy constructor and assignment operator.
 ~Chain(): Destructor.
