@@ -1,4 +1,4 @@
-# Photo-Scramble
+# Photo Scramble
 ![image](https://user-images.githubusercontent.com/89245846/223497602-46e41488-acd8-4f2e-a696-fbab0ec81603.png)
 
 Each Block is placed in a Node of a Chain, in order from left to right as shown here:
